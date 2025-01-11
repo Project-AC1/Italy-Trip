@@ -127,12 +127,12 @@ p{
 @media (max-width: 1513px) {
     #wraper{
         margin-left: 12%;
-        float: none;
+        float: left;
     }
     #wraper2{
         margin-right: 7%;
         margin-left: 20%;
-        float: none;
+        float: left;
         width: 260px;
     }
     #wraper2 #h{
