@@ -20,7 +20,7 @@ body{
 }
 
 #wraper{
-    width: 95vw;
+    width: 260px;
     height: 450px;
     border-radius: 25px;
     position: relative;
@@ -30,7 +30,7 @@ body{
     overflow: hidden;
 }
 #wraper2{
-    
+    width: 94vw;
     height: 400px;
     border-radius: 25px;
     position: relative;
@@ -126,9 +126,12 @@ p{
 }
 @media (max-width: 1513px) {
     #wraper{
-        float: left;
+        float: none;
     }
     #wraper2{
+        width: 260vw;
+        height: 450px;
+        float: none;
         width: 260px;
     }
     #wraper2 #h{
