@@ -1,0 +1,157 @@
+*{
+    font-family: bol;
+}
+h3{
+    margin-top: 5px;
+    overflow: auto;
+}
+body{
+    display: grid;
+    place-items: center;
+    background-color: #EFF3EA;
+    overflow-y: scroll;
+}
+.img{
+    position: center;
+}
+#wraper2 img {
+    width: 250%; /* Ensures the image fits inside the container */
+    height: auto; /* Maintains aspect ratio */
+}
+
+#wraper{
+    width: 260px;
+    height: 450px;
+    border-radius: 25px;
+    position: relative;
+    float: left;
+    align-self: center;
+    margin: 10px 25px 19px 15px;
+    overflow: hidden;
+}
+#wraper2{
+    
+    height: 400px;
+    border-radius: 25px;
+    position: relative;
+    float: left;
+    align-self: center;
+    margin: 10px 25px 19px 15px;
+    overflow: hidden;
+    
+}
+#overl{
+    position: absolute;
+    background-image: linear-gradient(transparent, transparent, rgb(0, 0, 0, 0.863), rgb(0, 0, 0));
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+}
+
+.h{
+    margin-top: 90%;
+    text-align: left ;
+    padding-left:15px;
+    font-family: bol;
+    color: white; 
+    opacity: 0;
+}
+#wraper2 #h{
+    margin-top: 15%;
+    text-align: left ;
+    padding-left:15px;
+    font-family: bol;
+    color: white; 
+    opacity: 0;
+}
+.I{
+    font-size: 17px;
+}
+p{
+    padding-left: 15px;
+    text-align: left ;
+    font-family: bol;
+    color: rgb(255, 233, 233); 
+    opacity: 0;
+    margin-top: -15px;
+}
+#wraper2 #p{
+    padding-left: 15px;
+    text-align: left ;
+    font-family: bol;
+    color: rgb(255, 233, 233); 
+    opacity: 0;
+    margin-top: -15px;
+}
+#wraper:hover .h{
+    opacity: 1;
+    transform: translateY(05px);
+    -moz-transition: ease-in-out;
+    transition-duration: 0.6s;
+}
+#wraper:hover{
+    box-shadow: 0px 0px 20px;
+    -moz-transition: ease-in-out;
+    transition-duration: 0.5s;
+}
+#wraper:hover .p{
+    opacity: 1;
+    transform: translateY(10px);
+    -moz-transition: ease-in-out;
+    transition-duration: 1s;
+}
+
+@font-face {
+    font-family: bol;
+    src: url(Protofo-Bold.otf);
+}
+#wraper2:hover #h{
+    opacity: 1;
+    transform: translateY(05px);
+    -moz-transition: ease-in-out;
+    transition-duration: 0.6s;
+}
+#wraper2:hover{
+    box-shadow: 0px 0px 20px;
+    -moz-transition: ease-in-out;
+    transition-duration: 0.5s;
+}
+#wraper2:hover #p{
+    opacity: 1;
+    transform: translateY(10px);
+    -moz-transition: ease-in-out;
+    transition-duration: 1s;
+}
+@media (max-width: 1513px) {
+    #wraper{
+        margin-left: 15%;
+        float: none;
+    }
+    #wraper2{
+        margin-right: 10%;
+        margin-left: 20%;
+        float: none;
+        width: 260px;
+    }
+    #wraper2 #h{
+        margin-top: 60%;
+    }
+    .T{
+        font-size: 77px;
+    }
+    .I{
+        font-size: 45px;
+    }
+}   
+@media (min-width: 1815px){
+    #wraper2 #h{
+        margin-top: 10%;
+        text-align: left ;
+        padding-left:15px;
+        font-family: bol;
+        color: white; 
+        opacity: 0;
+    }
+}
