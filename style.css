@@ -37,8 +37,7 @@ body{
     width: 260px; /* Consistent width */
     height: 450px; /* Consistent height */
     border-radius: 25px;
-    position: relative;
-    float: left; /* Align cards side by side */
+    position: relative; /* Align cards side by side */
     align-self: center;
     margin: 10px 25px 19px 15px; /* Same margins for all */
     overflow: hidden;
@@ -47,8 +46,7 @@ body{
     width: 260px; /* Consistent width */
     height: 450px; /* Consistent height */
     border-radius: 25px;
-    position: relative;
-    float: left; /* Align cards side by side */
+    position: relative;/* Align cards side by side */
     align-self: center;
     margin: 10px 25px 19px 15px; /* Same margins for all */
     overflow: hidden;
@@ -124,12 +122,12 @@ p{
     font-family: bol;
     src: url(Protofo-Bold.otf);
 }
-@media(max-width:390px) {
+@media(min-width:900px) {
     #wraper{
-        clear: both;
+        float:left;
     }
     #wraper2{
-        clear: both;
+        float:left; 
     }
     
 }
