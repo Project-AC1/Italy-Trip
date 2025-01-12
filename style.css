@@ -1,9 +1,28 @@
+
 *{
     font-family: bol;
+}
+.space{
+    color: #EFF3EA;
+}
+.div2{
+    margin-left: 0;
 }
 h3{
     margin-top: 5px;
     overflow: auto;
+}
+a{
+    background-color: rgb(23, 23, 23);
+    padding: 5px;
+    text-align: center;
+    padding-right: 35px;
+    color: rgb(255, 255, 255);
+    border-radius: 7px;  
+}
+a:hover{
+    background-color: rgb(8, 8, 8);
+    box-shadow: 0px 0px 25px black;
 }
 body{
     display: grid;
@@ -14,31 +33,25 @@ body{
 .img{
     position: center;
 }
-#wraper2 img {
-    width: 250%; /* Ensures the image fits inside the container */
-    height: auto; /* Maintains aspect ratio */
-}
-
-#wraper{
-    width: 260px;
-    height: 450px;
+#wraper {
+    width: 260px; /* Consistent width */
+    height: 450px; /* Consistent height */
     border-radius: 25px;
     position: relative;
-    float: left;
+    float: left; /* Align cards side by side */
     align-self: center;
-    margin: 10px 25px 19px 15px;
+    margin: 10px 25px 19px 15px; /* Same margins for all */
     overflow: hidden;
 }
 #wraper2{
-    width: 94vw;
-    height: 400px;
+    width: 260px; /* Consistent width */
+    height: 450px; /* Consistent height */
     border-radius: 25px;
     position: relative;
-    float: left;
+    float: left; /* Align cards side by side */
     align-self: center;
-    margin: 10px 25px 19px 15px;
+    margin: 10px 25px 19px 15px; /* Same margins for all */
     overflow: hidden;
-    
 }
 #overl{
     position: absolute;
@@ -58,26 +71,10 @@ body{
     color: white; 
     opacity: 0;
 }
-#wraper2 #h{
-    margin-top: 15%;
-    text-align: left ;
-    padding-left:15px;
-    font-family: bol;
-    color: white; 
-    opacity: 0;
-}
 .I{
     font-size: 17px;
 }
 p{
-    padding-left: 15px;
-    text-align: left ;
-    font-family: bol;
-    color: rgb(255, 233, 233); 
-    opacity: 0;
-    margin-top: -15px;
-}
-#wraper2 #p{
     padding-left: 15px;
     text-align: left ;
     font-family: bol;
@@ -92,7 +89,8 @@ p{
     transition-duration: 0.6s;
 }
 #wraper:hover{
-    box-shadow: 0px 0px 20px;
+    box-shadow: 0px 0px 20px black;
+    
     -moz-transition: ease-in-out;
     transition-duration: 0.5s;
 }
@@ -102,12 +100,8 @@ p{
     -moz-transition: ease-in-out;
     transition-duration: 1s;
 }
-
-@font-face {
-    font-family: bol;
-    src: url(Protofo-Bold.otf);
-}
-#wraper2:hover #h{
+/*2*/
+#wraper2:hover .h{
     opacity: 1;
     transform: translateY(05px);
     -moz-transition: ease-in-out;
@@ -118,9 +112,24 @@ p{
     -moz-transition: ease-in-out;
     transition-duration: 0.5s;
 }
-#wraper2:hover #p{
+#wraper2:hover .p{
     opacity: 1;
     transform: translateY(10px);
     -moz-transition: ease-in-out;
     transition-duration: 1s;
+}
+
+
+@font-face {
+    font-family: bol;
+    src: url(Protofo-Bold.otf);
+}
+@media(max-width:390px) {
+    #wraper{
+        clear: both;
+    }
+    #wraper2{
+        clear: both;
+    }
+    
 }
