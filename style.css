@@ -124,7 +124,7 @@ p{
     -moz-transition: ease-in-out;
     transition-duration: 1s;
 }
-@media (max-width: 1513px) {
+@media (max-width: 500px) {
     #wraper{
         float: none;
     }
@@ -144,7 +144,7 @@ p{
         font-size: 45px;
     }
 }   
-@media (min-width: 1815px){
+@media (min-width: 1015px){
     #wraper2 #h{
         margin-top: 10%;
         text-align: left ;
