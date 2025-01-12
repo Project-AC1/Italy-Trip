@@ -127,12 +127,3 @@ p{
     font-family: bol;
     src: url(Protofo-Bold.otf);
 }
-@media(max-width:390px) {
-    #wraper{
-        clear: both;
-    }
-    #wraper2{
-        clear: both;
-    }
-    
-}
