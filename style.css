@@ -33,6 +33,9 @@ body{
 .img{
     position: center;
 }
+.div{
+    margin-right: 150px;
+}
 #wraper {
     width: 260px; /* Consistent width */
     height: 450px; /* Consistent height */
@@ -40,7 +43,7 @@ body{
     position: relative;
     float: left; /* Align cards side by side */
     align-self: center;
-    margin: 10px 25px 19px 15px; /* Same margins for all */
+    margin: 25px; /* Same margins for all */
     overflow: hidden;
 }
 #wraper2{
