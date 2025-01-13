@@ -34,23 +34,13 @@ body{
     margin-right: 150px;
 }
 #wraper {
-    width: 260px; /* Consistent width */
+    width: 40vw; /* Consistent width */
     height: 450px; /* Consistent height */
     border-radius: 25px;
     position: relative;
     float: left; /* Align cards side by side */
     align-self: center;
     margin: 25px; /* Same margins for all */
-    overflow: hidden;
-}
-#wraper2{
-    width: 260px; /* Consistent width */
-    height: 450px; /* Consistent height */
-    border-radius: 25px;
-    position: relative;
-    float: left; /* Align cards side by side */
-    align-self: center;
-    margin: 10px 25px 19px 15px; /* Same margins for all */
     overflow: hidden;
 }
 #overl{
