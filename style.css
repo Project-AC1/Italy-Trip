@@ -40,7 +40,7 @@ body{
     position: relative;
     float: left; /* Align cards side by side */
     align-self: center;
-    margin: 25px; /* Same margins for all */
+ /* Same margins for all */
     overflow: hidden;
 }
 #overl{
