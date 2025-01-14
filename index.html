@@ -1,12 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="Style.css">
         <title>FTI</title>
         <link rel = "icon" href = "IconC.png">
     </head>
     <center>
     <body id = "body">
+        <script>
+            jQuery(function($) {
+    $('#golink').click(function() {
+        return false;
+    }).dblclick(function() {
+        window.location = this.href;
+        return false;
+    });
+});
+        </script>
         <div class = "div" id = "d1">
             <center>
             <h3>Italy</h3>
@@ -14,7 +24,7 @@
             </center>
             <center>
             <!--The Cards-->
-            <a href = "https://wizzair.com/en-gb" target = "_blank">
+            <a href = "https://wizzair.com/en-gb" target = "_blank" id = "golink">
                 <div class = "div1" id = "wraper">
                 
                     <img class = "img" src = "Airport2.jpg" width="705px" positition = "center">
@@ -28,13 +38,16 @@
 
             
             <!--Card 2-->
-            <div class = "div" id = "wraper">
-                <img class = "img" src = "Hotel3.jpg" width="705px">
-                <div id = "overl">
-                    <h1 class = "h">Hotel</h1>
-                    <p class = "p"> -B&B Hotel Milano Ornato<br> -3 night 194 Eur per Student<br> -Breadfast is Included<br> -1st Day and last Day will be <br>spent inside the hotel</p>
+            <a href = "https://www.booking.com/hotel/it/bandb-hotel-milano-ornato.html?aid=7344259&label=metatripad-link-dmetanar-hotel-85104_xqdz-fa186713f089502d7f706186ec147efd_los-04_bw-094_tod-20_dom-com_curr-USD_gst-03_nrm-01_clkid-4642d002-1f42-4374-8013-b724cfa23a04_aud-0000_mbl-M_pd-B_sc-2_defdate-0_spo-0_clksrc-0_mcid-50&sid=7267db2394b4021067f7b4a5a7fad4ac&all_sr_blocks=8510446_91462511_4_2_0&checkin=2025-04-14&checkout=2025-04-18&dest_id=-121726&dest_type=city&dist=0&group_adults=3&group_children=0&hapos=1&highlighted_blocks=8510446_91462511_4_2_0&hpos=1&matching_block_id=8510446_91462511_4_2_0&no_rooms=1&req_adults=3&req_children=0&room1=A%2CA%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=8510446_91462511_4_2_0__48414&srepoch=1736534623&srpvid=b3c983ab61250626&type=total&ucfs=1&" target = "_blank">
+                <div class = "div" id = "wraper">
+                    <img class = "img" src = "Hotel3.jpg" width="705px">
+                    <div id = "overl">
+                        <h1 class = "h">Hotel</h1>
+                        <p class = "p"> -B&B Hotel Milano Ornato<br> -3 night 194 Eur per Student<br> -Breadfast is Included<br> -1st Day and last Day will be <br>spent inside the hotel</p>
+                    </div>
                 </div>
-            </div>
+            </a>
+
 
             <!--Card 3-->
             <div class = "div" id = "wraper">
