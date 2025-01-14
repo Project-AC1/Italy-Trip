@@ -38,7 +38,7 @@ h3{
     height: 450px; /* Consistent height */
     border-radius: 25px;
     position: relative;
-    float: auto; /* Align divs side by side */
+    float: left; /* Align divs side by side */
     margin-left: 25px; /* Margin between divs */
     overflow: hidden;
 }
@@ -126,6 +126,18 @@ p{
 /*Screen Settings*/
 
 
+
+@media (orientation: landscape) {
+    #wraper{
+      float: left;
+    }
+  }
+  
+  @media (orientation: portrait) {
+    #wraper{
+        float: none;
+    }
+  }
 
 
 /*Fonts*/
