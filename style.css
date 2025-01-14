@@ -1,46 +1,45 @@
+/*Body + All */
+
+
 
 *{
     font-family: bol;
 }
-.space{
-    color: #EFF3EA;
+body{
+    flex-wrap: wrap;
+    padding-left: 60px;
+    background-color: #EFF3EA;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
+
+
+
+/*Header*/
+
+
+
 h3{
     margin-top: 5px;
     overflow: auto;
 }
-a{
-    background-color: rgb(23, 23, 23);
-    padding: 5px;
-    text-align: center;
-    padding-right: 35px;
-    color: rgb(255, 255, 255);
-    border-radius: 7px;  
-}
-a:hover{
-    background-color: rgb(8, 8, 8);
-    box-shadow: 0px 0px 25px black;
-}
-body{
-    display: grid;
-    place-items: center;
-    background-color: #EFF3EA;
-    overflow-y: scroll;
-}
+
+
+
+/*Wrapers + Overlays*/
+
+
+
 .img{
     position: center;
 }
-.div{
-    margin-right: 150px;
-}
 #wraper {
-    width: 40vw; /* Consistent width */
+    width: 260px; /* Consistent width */
     height: 450px; /* Consistent height */
     border-radius: 25px;
     position: relative;
-    float: left; /* Align cards side by side */
-    align-self: center;
- /* Same margins for all */
+    float: auto; /* Align divs side by side */
+    margin-left: 25px; /* Margin between divs */
     overflow: hidden;
 }
 #overl{
@@ -52,6 +51,12 @@ body{
     top: 0;
     overflow: hidden;
 }
+
+
+
+/*Card Content*/
+
+
 
 .h{
     margin-top: 90%;
@@ -72,6 +77,13 @@ p{
     opacity: 0;
     margin-top: -15px;
 }
+
+
+
+/*Hover Effect*/
+
+
+
 #wraper:hover .h{
     opacity: 1;
     transform: translateY(05px);
@@ -90,7 +102,7 @@ p{
     -moz-transition: ease-in-out;
     transition-duration: 1s;
 }
-/*2*/
+
 #wraper2:hover .h{
     opacity: 1;
     transform: translateY(05px);
@@ -110,7 +122,18 @@ p{
 }
 
 
+
+/*Screen Settings*/
+
+
+
+
+/*Fonts*/
+
+
+
 @font-face {
     font-family: bol;
     src: url(Protofo-Bold.otf);
 }
+
