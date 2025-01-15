@@ -158,4 +158,8 @@ p{
     font-family: bol;
     src: url(Protofo-Bold.otf);
 }
-
+@media only screen and (max-width: 600px) {
+  #wraper {
+      width: 540px;
+  }
+}
