@@ -138,6 +138,12 @@ p{
     #wraper{
         float: none;
     }
+    .h{
+        opacity: 1;
+    }
+    p{
+        opacity: 1;
+    }
   }
 
 
