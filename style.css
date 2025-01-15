@@ -139,7 +139,7 @@ p{
   @media (orientation: portrait) {
     #wraper{
         float: none;
-        width: 90%;
+        width: 520px;
     }
     .h{
         opacity: 1;
