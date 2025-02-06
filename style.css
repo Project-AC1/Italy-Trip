@@ -94,38 +94,7 @@ p{
 
 
 /*Hover Effect*/
-.h1.changed{
-    opacity: 0;
-    -webkit-transition: ease-in-out;
-    transition-duration: 1s;
-}
 
-
-#wraper:hover .h{
-    text-shadow: 0px 0px 10px #cfcfcf90;
-    opacity: 1;
-    transform: translateY(05px);
-    -moz-transition: ease-in-out;
-    transition-duration: 0.6s;
-}
-#wraper:hover{
-    box-shadow: 0px 0px 20px black;
-    -moz-transition: ease-in-out;
-    transition-duration: 0.5s;
-}
-#wraper:hover .p{
-    text-shadow: 0px 0px 3px #cfcfcf90;
-    opacity: 1;
-    transform: translateY(10px);
-    -moz-transition: ease-in-out;
-    transition-duration: 1s;
-}
-#wraper:hover .img{
-   filter: blur(2px);
-   transform: translate(-10px);
-   -moz-transition: ease-in-out;
-   transition-duration: 1s;
-}
 
 
 /*------------------------*/
@@ -165,35 +134,59 @@ p{
        -moz-transition: ease-in-out;
        transition-duration: 1s;
     }
-  }
-  
-@media (orientation: portrait) {
-#wraper{
-    float: none;
-    width: 80%;
-    margin-right: 55px;
-}
-.img{
-    width: 840px;
-}
-.h{
+  #wraper:hover .h{
+    text-shadow: 0px 0px 10px #cfcfcf90;
     opacity: 1;
-    margin-top: 35%;
+    transform: translateY(05px);
+    -moz-transition: ease-in-out;
+    transition-duration: 0.6s;
+    }
+    #wraper:hover{
+        box-shadow: 0px 0px 20px black;
+        -moz-transition: ease-in-out;
+        transition-duration: 0.5s;
+    }
+    #wraper:hover .p{
+        text-shadow: 0px 0px 3px #cfcfcf90;
+        opacity: 1;
+        transform: translateY(10px);
+        -moz-transition: ease-in-out;
+        transition-duration: 1s;
+    }
+    #wraper:hover .img{
+    filter: blur(2px);
+    transform: translate(-10px);
+    -moz-transition: ease-in-out;
+    transition-duration: 1s;
+    }
 }
-.p{
-    opacity: 1; 
-}
-.T{
-    font-size: 60px;
-    margin-right: 50px;
-}
-.C{
-    font-size: 25px;
-    margin-top: 25px;
-}
-.I{
-    font-size: 25px;
-}
+@media (orientation: portrait) {
+    #wraper{
+        float: none;
+        width: 80%;
+        margin-right: 55px;
+    }
+    .img{
+        width: 840px;
+    }
+    .h{
+        opacity: 1;
+        margin-top: 35%;
+    }
+    .p{
+        opacity: 1; 
+    }
+    .T{
+        font-size: 60px;
+        margin-right: 50px;
+    }
+    .C{
+        font-size: 25px;
+        margin-top: 25px;
+    }
+    .I{
+        font-size: 25px;
+    }
 }
 
 
