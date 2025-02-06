@@ -16,14 +16,25 @@ body{
 
 
 /*Header*/
+.scl{
+    width: 180px; 
+    height: 80px; 
+    position: absolute;
+    margin-top: 2px;
+    margin-left: 60px;
+}
+.T{
+    margin: 0px;
+}
 
-
-
-h3{
+.C{
     margin-top: 5px;
     overflow: auto;
 }
-
+.I{
+    font-size: 17px;
+    margin: 0px;
+}
 
 
 /*Wrapers + Overlays*/
@@ -31,7 +42,9 @@ h3{
 
 
 .img{
+    margin-bottom: 150px;
     align-self: center;
+    transform: translateY(-25px);
 }
 #wraper {
     width: 260px; /* Consistent width */
@@ -56,20 +69,19 @@ h3{
 
 
 /*Card Content*/
+.lng{
 
-
-
+    padding-left: 100%;
+}
 .h{
-    margin-top: 90%;
+    margin-top: 65%;
     text-align: left ;
     padding-left:15px;
     font-family: bol;
     color: white; 
     opacity: 0;
 }
-.I{
-    font-size: 17px;
-}
+
 p{
     padding-left: 15px;
     text-align: left ;
@@ -82,10 +94,15 @@ p{
 
 
 /*Hover Effect*/
-
+.h1.changed{
+    opacity: 0;
+    -webkit-transition: ease-in-out;
+    transition-duration: 1s;
+}
 
 
 #wraper:hover .h{
+    text-shadow: 0px 0px 10px #cfcfcf90;
     opacity: 1;
     transform: translateY(05px);
     -moz-transition: ease-in-out;
@@ -97,6 +114,7 @@ p{
     transition-duration: 0.5s;
 }
 #wraper:hover .p{
+    text-shadow: 0px 0px 3px #cfcfcf90;
     opacity: 1;
     transform: translateY(10px);
     -moz-transition: ease-in-out;
@@ -110,6 +128,10 @@ p{
 }
 
 
+/*------------------------*/
+
+
+
 /*Screen Settings*/
 
 
@@ -117,26 +139,62 @@ p{
 @media (orientation: landscape) {
     #wraper{
       float: left;
+
+    }
+    #wraper:not(:hover) .h{
+        text-shadow:none;
+        opacity: 0;
+        transform: translateY(-5px);
+        -moz-transition: ease-in-out;
+        transition-duration: 0.6s;
+    }
+    #wraper:not(:hover){
+        box-shadow: none;
+        -moz-transition: ease-in-out;
+        transition-duration: 0.5s;
+    }
+    #wraper:not(:hover) .p{
+        text-shadow:none;
+        opacity: 0;
+        transform: translateY(-10px);
+        -moz-transition: ease-in-out;
+        transition-duration: 1s;
+    }
+    #wraper:not(:hover) .img{
+       filter: none;
+       -moz-transition: ease-in-out;
+       transition-duration: 1s;
     }
   }
   
-  @media (orientation: portrait) {
-    #wraper{
-        float: none;
-        width: 80%;
-        margin-right: 55px;
-    }
-    .img{
-        width: 840px;
-    }
-    .h{
-        opacity: 1;
-        margin-top: 35%;
-    }
-    .p{
-        opacity: 1; 
-    }
-  }
+@media (orientation: portrait) {
+#wraper{
+    float: none;
+    width: 80%;
+    margin-right: 55px;
+}
+.img{
+    width: 840px;
+}
+.h{
+    opacity: 1;
+    margin-top: 35%;
+}
+.p{
+    opacity: 1; 
+}
+.T{
+    font-size: 60px;
+    margin-right: 50px;
+}
+.C{
+    font-size: 25px;
+    margin-top: 25px;
+}
+.I{
+    font-size: 25px;
+}
+}
 
 
 /*Fonts*/
@@ -144,7 +202,7 @@ p{
 
 
 @font-face {
-    font-family: bol;
-    src: url(Protofo-Bold.otf);
+font-family: bol;
+src: url(Poppins-ExtraBold.ttf);
 }
 
