@@ -204,22 +204,10 @@ p{
         -moz-transition: ease-in-out;
         transition-duration: 0.6s;
     }
-    #wraper:not(:hover) .h{
-        text-shadow:none;
-        opacity: 1;
-        -moz-transition: ease-in-out;
-        transition-duration: 0.6s;
-    }
     #wraper:not(:hover){
         box-shadow: none;
         -moz-transition: ease-in-out;
         transition-duration: 0.5s;
-    }
-    #wraper:not(:hover) .p{
-        text-shadow:none;
-        opacity: 1;
-        -moz-transition: ease-in-out;
-        transition-duration: 1s;
     }
     #wraper:not(:hover) .img{
        filter: none;
