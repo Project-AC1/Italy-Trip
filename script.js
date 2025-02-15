@@ -92,7 +92,7 @@ if (window.innerWidth > window.innerHeight) {
     }
     h6.onmouseleave = function(){
         h6.style.marginTop = "40%";
-        h6.innerHTML = "Costs";
+        h6.innerHTML = "fees";
         p6.innerHTML = "-The Budget we Had was 1000 Eur<br> -We Spent 493 Eur & By Adding 150 Eur Pocket Money<br> -The Final Cost Will be 643 Eur<br> -Which is 64.3 % From the Initial Budget";
     }
     
@@ -181,8 +181,7 @@ if (window.innerWidth > window.innerHeight) {
         
         }
         h6.onmouseleave = function(){
-            h6.innerHTML = "Costs";
+            h6.innerHTML = "Fees";
             p6.innerHTML = "-The Budget we Had was 1000 Eur<br> -We Spent 493 Eur & By Adding 150 Eur Pocket Money<br> -The Final Cost Will be 643 Eur<br> -Which is 64.3 % From the Initial Budget";
         }
 }
-
