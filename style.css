@@ -1,3 +1,4 @@
+/*Body + All */
 *{
     font-family: bol;
 }
@@ -77,7 +78,16 @@ p{
     opacity: 0;
     margin-top: -15px;
 }
+#wraper {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+}
 
+.img {
+    max-width: 350%; /* Ensures it fits within the container */
+    height: auto; /* Maintains aspect ratio */
+}
 /*Hover Effect*/
 @media (orientation: landscape) {
     .mainholder {
@@ -136,20 +146,12 @@ p{
 }
 @media (orientation: portrait) {
     #wraper{
-        display: flex;
-        justify-content: center; /* Centers horizontally */
-        align-items: center; /* Centers vertically */
-        height: 100%; /* Ensure the parent div has height */
-        width: 100%;
-
         float: none;
         width: 80%;
         margin-right: 55px;
         margin-bottom: 25px;
     }
     .img{
-        max-width: 100%; /* Ensure the image is responsive */
-        max-height: 100%;
         width: 840px;
     }
     .h{
